@@ -1,0 +1,26 @@
+.ejercicios{
+    position: relative;
+    background: url(godzilla-vs-kong.jpg) 0 / cover fixed;
+    width: 100%;
+    height: 900px;
+}
+
+.content{
+    position: absolute;
+    border-radius: 10px;
+    background-color: hsla(120, 100%, 100%, .6);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .8);
+    top: 10%;
+    bottom: 15%;
+    left: 10%;
+    right: 10%;
+    filter: blur(2px);
+}
+
+.text{
+    top: 40%;
+    bottom: 40%;
+    left: 40%;
+    right: 40%;
+    position: absolute;
+}
